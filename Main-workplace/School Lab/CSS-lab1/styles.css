@@ -1,7 +1,5 @@
-Mga update sa mga keyboard shortcut … Sa Huwebes, Agosto 1, 2024, ia-update ang mga keyboard shortcut sa Drive para bigyan ka ng pag-navigate sa pamamagitan ng mga unang titik.Matuto pa
 /* Styles for the body element */
 body {
- task 3:
  font-family: 'Arial', sans-serif;
  margin: 40px;
  background-color: green;
@@ -14,20 +12,18 @@ h1 {
 }
 /* Paragraph styling */
 p {
-  task 1:
  color: yellow;
  line-height: 2.5;
  font-size: 40px;
 }
 /* Styling a div with the class "styled-box" */
 .styled-box {
-  task 2:
  background-color: pink;
  padding: 40px;
  margin-top: 40px;
  text-align: center;
- font-size: 40px;
- outline-style; inset
+ font-size: large 40px;;
+ outline-style: inset
 }
 /* Styling an element with the ID "unique-text" */
 #unique-text {
