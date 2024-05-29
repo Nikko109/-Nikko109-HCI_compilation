@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=inter:wght@100..900&display=swap");
 :root{
-  -color-background:#242323;
-  -my-font:"inter";
+  --color-background:#242323;
+  --my-font:"inter";
 }
 
 body {
@@ -65,12 +65,12 @@ a:hover {
 }
 
 .content-container {
-  border-botton: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .footer-container {
   display: flex;
-  justify-container: center;
+  justify-content: center;
   align-items: center;
 }
 

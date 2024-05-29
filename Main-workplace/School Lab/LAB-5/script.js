@@ -1,10 +1,11 @@
-const sampleData = {
-  labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+
+const bikePartsData = {
+  labels: ['Frame', 'Handlebar', 'Saddle', 'Pedals', 'Wheels', 'Tires', 'Chain', 'Brakes', 'Gears', 'Fork', 'Grips', 'Seatpost'],
   datasets: [{
-    label: 'Sample Data',
-    data: [10, 20, 30, 40, 50, 60, 60, 50, 40, 30, 20, 10],
-    backgroundColor: 'rgba(245, 64, 145)',
-    borderColor: 'rgba(95, 43, 0)',
+    label: 'Bike Parts Pricing',
+    data: [150, 40, 60, 30, 200, 50, 25, 70, 90, 130, 15, 40],
+    backgroundColor: 'rgba(54, 162, 235, 0.2)',
+    borderColor: 'rgba(54, 162, 235, 1)',
     borderWidth: 1
   }]
 };
@@ -19,7 +20,7 @@ function renderChart(type) {
   
   currentChart = new Chart(ctx, {
     type: type,
-    data: sampleData,
+    data: bikePartsData,
     options: {
       scales: {
         y: {
@@ -35,7 +36,7 @@ function renderChart(type) {
                 label += ': ';
               }
               if (context.parsed.y !== null) {
-                label += context.parsed.y;
+                label += $$context.parsed.y;
               }
               return label;
             }
@@ -50,4 +51,5 @@ function changeChartType(type) {
   renderChart(type);
 }
 
+// Initially render the chart as a bar chart
 renderChart('bar');
