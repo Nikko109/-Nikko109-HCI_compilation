@@ -1,5 +1,5 @@
 const sampleData = {
-  labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+  labels: ['Frame', 'Handlebar', 'Saddle', 'Pedals', 'Wheels', 'Tires', 'Chain', 'Brakes', 'Gears', 'Fork', 'Grips', 'Seatpost'],
   datasets: [{
     label: 'Sample Data',
     data: [10, 20, 30, 40, 50, 60, 60, 50, 40, 30, 20, 10],
